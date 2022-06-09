@@ -4,7 +4,7 @@ namespace App\View\Components;
 
 use Illuminate\View\Component;
 
-class Product-page extends Component
+class Productpage extends Component
 {
     /**
      * Create a new component instance.

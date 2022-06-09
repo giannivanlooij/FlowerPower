@@ -4,7 +4,7 @@ namespace App\View\Components;
 
 use Illuminate\View\Component;
 
-class Shopping-cart extends Component
+class Shoppingcart extends Component
 {
     /**
      * Create a new component instance.
