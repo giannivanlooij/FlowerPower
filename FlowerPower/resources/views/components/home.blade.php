@@ -222,7 +222,7 @@
                <div class="col-sm-6 col-md-4 col-lg-4">
                   <div class="box">
                      <div class="option_container">
-                        <div class="options">
+                        <div class="options">  <!-- hover over card/flower -->
                            <a href="" class="option1">
                            Men's Shirt
                            </a>
@@ -234,11 +234,11 @@
                      <div class="img-box">
                         <img src="images/p1.png" alt="">
                      </div>
-                     <div class="detail-box">
-                        <h5>
+                     <div class="detail-box"> 
+                        <h5> <!-- title of object/flower -->
                         Gemengd boeket roze/rood
                         </h5>
-                        <h6>
+                        <h6> <!--- price -->
                         €15
                         </h6>
                      </div>
@@ -261,10 +261,10 @@
                      </div>
                      <div class="detail-box">
                         <h5>
-                           Men's Shirt
+                        Milou geel Vers Boeket Bloemen
                         </h5>
                         <h6>
-                           $80
+                           $10
                         </h6>
                      </div>
                   </div>
@@ -286,10 +286,10 @@
                      </div>
                      <div class="detail-box">
                         <h5>
-                           Women's Dress
+                        Milou oranje Vers Boeket Bloemen
                         </h5>
                         <h6>
-                           $68
+                        €10
                         </h6>
                      </div>
                   </div>
@@ -311,10 +311,10 @@
                      </div>
                      <div class="detail-box">
                         <h5>
-                           Women's Dress
+                        Milou rood Vers Boeket Bloemen
                         </h5>
                         <h6>
-                           $70
+                        €10
                         </h6>
                      </div>
                   </div>
@@ -336,10 +336,10 @@
                      </div>
                      <div class="detail-box">
                         <h5>
-                           Women's Dress
+                        Milou roze Vers Boeket Bloemen
                         </h5>
                         <h6>
-                           $75
+                        €10
                         </h6>
                      </div>
                   </div>
@@ -361,10 +361,10 @@
                      </div>
                      <div class="detail-box">
                         <h5>
-                           Women's Dress
+                        Milou wit Vers Boeket Bloemen
                         </h5>
                         <h6>
-                           $58
+                        €10
                         </h6>
                      </div>
                   </div>
@@ -389,7 +389,7 @@
                            Women's Dress
                         </h5>
                         <h6>
-                           $80
+                           $
                         </h6>
                      </div>
                   </div>
