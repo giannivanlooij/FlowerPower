@@ -239,7 +239,7 @@
                         Gemengd boeket roze/rood
                         </h5>
                         <h6> <!--- price -->
-                        €15
+                        €14,99
                         </h6>
                      </div>
                   </div>
@@ -264,7 +264,7 @@
                         Milou geel Vers Boeket Bloemen
                         </h5>
                         <h6>
-                           $10
+                           $12.50
                         </h6>
                      </div>
                   </div>
@@ -289,7 +289,7 @@
                         Milou oranje Vers Boeket Bloemen
                         </h5>
                         <h6>
-                        €10
+                        €13.65
                         </h6>
                      </div>
                   </div>
@@ -314,7 +314,7 @@
                         Milou rood Vers Boeket Bloemen
                         </h5>
                         <h6>
-                        €10
+                        €12.50
                         </h6>
                      </div>
                   </div>
@@ -339,7 +339,7 @@
                         Milou roze Vers Boeket Bloemen
                         </h5>
                         <h6>
-                        €10
+                        €12.66
                         </h6>
                      </div>
                   </div>
@@ -364,7 +364,7 @@
                         Milou wit Vers Boeket Bloemen
                         </h5>
                         <h6>
-                        €10
+                        €9.55
                         </h6>
                      </div>
                   </div>
@@ -386,10 +386,10 @@
                      </div>
                      <div class="detail-box">
                         <h5>
-                           Women's Dress
+                        Verse Pioenrozen mix
                         </h5>
                         <h6>
-                           $
+                        €11.50
                         </h6>
                      </div>
                   </div>
@@ -411,10 +411,10 @@
                      </div>
                      <div class="detail-box">
                         <h5>
-                           Men's Shirt
+                        Boeket Sisal Large Lila
                         </h5>
                         <h6>
-                           $65
+                        €29.99
                         </h6>
                      </div>
                   </div>
@@ -436,10 +436,10 @@
                      </div>
                      <div class="detail-box">
                         <h5>
-                           Men's Shirt
+                        Bloemen boeket XL roze
                         </h5>
                         <h6>
-                           $65
+                        €19.99
                         </h6>
                      </div>
                   </div>
@@ -461,10 +461,10 @@
                      </div>
                      <div class="detail-box">
                         <h5>
-                           Gemengd boeket roze/rood   <!--place title of card here-->
+                        Biedermeier mix boeketje bloemen   <!--place title of card here-->
                         </h5>
                         <h6>
-                           $65
+                        €18.50
                         </h6>
                      </div>
                   </div>
@@ -486,10 +486,10 @@
                      </div>
                      <div class="detail-box">
                         <h5>
-                           Men's Shirt
+                        Rozentaartjes
                         </h5>
                         <h6>
-                           $65
+                        €18.65
                         </h6>
                      </div>
                   </div>
@@ -511,10 +511,10 @@
                      </div>
                      <div class="detail-box">
                         <h5>
-                           Women's Dress
+                        Tulpen Boeket
                         </h5>
                         <h6>
-                           $65
+                        €23.70
                         </h6>
                      </div>
                   </div>
