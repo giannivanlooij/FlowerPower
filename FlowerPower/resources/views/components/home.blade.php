@@ -236,10 +236,10 @@
                      </div>
                      <div class="detail-box">
                         <h5>
-                           Men's Shirt
+                        Gemengd boeket roze/rood
                         </h5>
                         <h6>
-                           $75
+                        €15
                         </h6>
                      </div>
                   </div>
@@ -461,7 +461,7 @@
                      </div>
                      <div class="detail-box">
                         <h5>
-                           Men's Shirt
+                           Gemengd boeket roze/rood   <!--place title of card here-->
                         </h5>
                         <h6>
                            $65
@@ -580,9 +580,6 @@
          </div>
       </footer>
       <!-- footer end -->
-      <div class="cpy_">
-         <p>© 2021 All Rights Reserved By <a href="https://html.design/">Free Html Templates</a></p>
-      </div>
       <!-- jQery -->
       <script src="js/jquery-3.4.1.min.js"></script>
       <!-- popper js -->
