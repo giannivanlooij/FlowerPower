@@ -11,7 +11,7 @@
       <meta name="description" content="" />
       <meta name="author" content="" />
       <a rel="shortcut icon" type="" href= "{{ URL::asset('storage/app/public/images/favicon.png'); }} "></a>
-      <title>Famms - Fashion HTML Template</title>
+      <title>FlowerPower</title>
       <!-- bootstrap core css -->
       <link rel="stylesheet" type="text/css" href= "{{ URL::asset('css/home/bootstrap.css'); }} ">
       <!-- font awesome style -->
@@ -48,7 +48,7 @@
                         </li>
                         <li class="nav-item">
                            <a class="nav-link" href="contact.html">Contact</a>
-                        </li>
+                        </li> 
                         <li class="nav-item">
                            <a class="nav-link" href="#">
                               <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 456.029 456.029" style="enable-background:new 0 0 456.029 456.029;" xml:space="preserve">
@@ -105,11 +105,16 @@
                               </svg>
                            </a>
                         </li>
-                        <form class="form-inline">
-                           <button class="btn  my-2 my-sm-0 nav_search-btn" type="submit">
-                           <i class="fa fa-search" aria-hidden="true"></i>
-                           </button>
+                        <li class="nav-item">
+                         <form class="form-inline" >
+                           <a class="btn btn-primary" href="#" role="button">login</a>
                         </form>
+                        </li>
+                        <li class="nav-item">
+                        <form class="form-inline" style="padding-left: 5px;">
+                        <a class="btn btn-primary" href="#" role="button">registrer</a>
+                        </form>
+                        </li>
                      </ul>
                   </div>
                </nav>
@@ -130,17 +135,17 @@
                               <div class="detail-box">
                                  <h1>
                                     <span>
-                                    Sale 20% Off
+                                    Title 1
                                     </span>
                                     <br>
-                                    On Everything
+                                    sub header 1
                                  </h1>
                                  <p>
                                     Explicabo esse amet tempora quibusdam laudantium, laborum eaque magnam fugiat hic? Esse dicta aliquid error repudiandae earum suscipit fugiat molestias, veniam, vel architecto veritatis delectus repellat modi impedit sequi.
                                  </p>
                                  <div class="btn-box">
                                     <a href="" class="btn1">
-                                    Shop Now
+                                    button 1
                                     </a>
                                  </div>
                               </div>
@@ -155,17 +160,17 @@
                               <div class="detail-box">
                                  <h1>
                                     <span>
-                                    Sale 20% Off
+                                    title 2
                                     </span>
                                     <br>
-                                    On Everything
+                                    sub header 2
                                  </h1>
                                  <p>
                                     Explicabo esse amet tempora quibusdam laudantium, laborum eaque magnam fugiat hic? Esse dicta aliquid error repudiandae earum suscipit fugiat molestias, veniam, vel architecto veritatis delectus repellat modi impedit sequi.
                                  </p>
                                  <div class="btn-box">
                                     <a href="" class="btn1">
-                                    Shop Now
+                                    button 2
                                     </a>
                                  </div>
                               </div>
@@ -180,17 +185,17 @@
                               <div class="detail-box">
                                  <h1>
                                     <span>
-                                    Sale 20% Off
+                                    Title 3 
                                     </span>
                                     <br>
-                                    On Everything
+                                    sub header 3 
                                  </h1>
                                  <p>
                                     Explicabo esse amet tempora quibusdam laudantium, laborum eaque magnam fugiat hic? Esse dicta aliquid error repudiandae earum suscipit fugiat molestias, veniam, vel architecto veritatis delectus repellat modi impedit sequi.
                                  </p>
                                  <div class="btn-box">
                                     <a href="" class="btn1">
-                                    Shop Now
+                                    button 3
                                     </a>
                                  </div>
                               </div>
