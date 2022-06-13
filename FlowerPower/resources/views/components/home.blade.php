@@ -113,7 +113,7 @@
                         </li>
                         <li class="nav-item">
                         <form class="form-inline" style="padding-left: 5px;">
-                        <a class="btn btn-primary" href="#" role="button">registrer</a>
+                        <a class="btn btn-primary"  href="#" role="button">registrer</a>
                         </form>
                         </li>
                      </ul>

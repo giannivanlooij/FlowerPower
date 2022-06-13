@@ -20,10 +20,9 @@ Route::get('/', function () {
 Route::get('/producten', function () {
     return view('components/products/products');
 });
-
-Route::get('/login', function () {
+Route::get('/login',  array('as' => 'login', function() {
     return view('components/login');
-});
+}));
 
 Route::get('/home', function () {
     return view('components/home');
