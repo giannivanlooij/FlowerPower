@@ -10,6 +10,7 @@
       <meta name="keywords" content="" />
       <meta name="description" content="" />
       <meta name="author" content="" />
+      <!-- image directory is not here anymore --> 
       <a rel="shortcut icon" type="" href= "{{ URL::asset('storage/app/public/images/favicon.png'); }} "></a>
       <title>FlowerPower</title>
       <!-- bootstrap core css -->
