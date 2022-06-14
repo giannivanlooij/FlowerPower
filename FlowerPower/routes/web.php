@@ -25,6 +25,10 @@ Route::get('/home', function () {
     return view('components/home');
 });
 
+Route::get('/login', function () {
+    return view('components/login');
+});
+
 
 // Route::get('/login', App\Http\Livewire\Login::class)->name('login');
 
