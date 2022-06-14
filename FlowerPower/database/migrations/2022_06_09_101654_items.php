@@ -13,7 +13,15 @@ return new class extends Migration
      */
     public function up()
     {
-        //
+        Schema::create('items', function (Blueprint $table) {
+            $table->id();
+            $table->string('Item_Name')->unique();
+            $table->string('Item_Description');
+            $table->timestamp('Item_Price');
+            $table->string('password');
+            $table->int('Item_Stock');
+            $table->timestamps();
+        });
     }
 
     /**
@@ -23,6 +31,6 @@ return new class extends Migration
      */
     public function down()
     {
-        //
+        Schema::dropIfExists('Items');
     }
 };

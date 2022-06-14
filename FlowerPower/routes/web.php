@@ -21,12 +21,15 @@ Route::get('/', function () {
 Route::get('/producten', function () {
     return view('components/products/products');
 });
-Route::get('/login',  array('as' => 'login', function() {
-    return view('components/login');
-}));
 
 Route::get('/home', function () {
     return view('components/home');
+});
+
+
+
+Route::get('/login', function () {
+    return view('components/login');
 });
 
 // routes for cart
