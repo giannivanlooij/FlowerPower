@@ -108,7 +108,9 @@
                         </li>
                         <li class="nav-item">
                          <form class="form-inline" >
-                           <a class="btn btn-primary" href="#" role="button">login</a>
+                           <!-- laravel ziet code door de comment heen. verwijder het desnoods tijdelijk bij optimize en serve -->
+                           <!-- werkt niet <a class="btn btn-primary" href="{{ URL::route('login') }}" role="button">login</a> -->
+                           <!-- werkt ook niet <a href="{{action('PagesCondtroller@toLogin')}}">login</a> -->
                         </form>
                         </li>
                         <li class="nav-item">

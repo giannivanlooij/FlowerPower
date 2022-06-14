@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\PagesController;
 
 /*
 |--------------------------------------------------------------------------
@@ -17,12 +18,13 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+
+
 Route::get('/producten', function () {
     return view('components/products/products');
 });
-Route::get('/login',  array('as' => 'login', function() {
-    return view('components/login');
-}));
+
+Route::get('/login',[PagesController::class, 'toLogin']);
 
 Route::get('/home', function () {
     return view('components/home');
