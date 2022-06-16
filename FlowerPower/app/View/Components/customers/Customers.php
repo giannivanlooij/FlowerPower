@@ -6,7 +6,6 @@ use Illuminate\View\Component;
 
 //models
 use App\Models\Artikel;
-use App\Models\Artikel;
 use App\Models\ArtikelCategorie;
 use App\Models\ArtikelGroep;
 use App\Models\ArtikelMerk;

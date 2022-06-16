@@ -3,26 +3,28 @@
 namespace App\View\Components\Customers;
 
 use Illuminate\View\Component;
+use App\Models\Klanten;
 
-class View-customer extends Component
+class Viewcustomer extends Component
 {
-    /**
-     * Create a new component instance.
-     *
-     * @return void
-     */
-    public function __construct()
+    public Klanten $customer;
+
+    public function mount(Klanten $customer)
     {
-        //
+        $this->customer = $customer;
     }
 
-    /**
-     * Get the view / contents that represent the component.
-     *
-     * @return \Illuminate\Contracts\View\View|\Closure|string
-     */
     public function render()
     {
-        return view('components.customers.view-customer');
+        return view('views.components.customers.view-customer');
     }
+}
+
+
+
+
+
+class CustomerView extends Component
+{
+    
 }
