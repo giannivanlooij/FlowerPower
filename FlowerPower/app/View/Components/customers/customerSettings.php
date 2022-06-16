@@ -1,10 +1,10 @@
 <?php
 
-namespace App\View\Components\Customers;
+namespace App\View\Components\customers;
 
 use Illuminate\View\Component;
 
-class Form-customer extends Component
+class customerSettings extends Component
 {
     /**
      * Create a new component instance.
@@ -23,6 +23,6 @@ class Form-customer extends Component
      */
     public function render()
     {
-        return view('components.customers.form-customer');
+        return view('components.customers.customer-settings');
     }
 }
