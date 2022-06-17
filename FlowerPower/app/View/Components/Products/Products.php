@@ -3,26 +3,59 @@
 namespace App\View\Components\Products;
 
 use Illuminate\View\Component;
+use App\Models\Product;
+
+use Illuminate\Database\Eloquent\Builder;
 
 class Products extends Component
 {
-    /**
-     * Create a new component instance.
-     *
-     * @return void
-     */
-    public function __construct()
+
+    protected $queryString = ['search'];
+
+    protected $paginationTheme = 'bootstrap';
+
+    public $search;
+
+    public $products;
+
+    
+
+        public function mount()
     {
-        //
+        $this->product = Product::orderBy('Product_Name', 'ASC')->get();
+        
     }
 
-    /**
-     * Get the view / contents that represent the component.
-     *
-     * @return \Illuminate\Contracts\View\View|\Closure|string
-     */
+    public function clearFilters()
+    {
+        $this->search = '';
+    }
+
+    
     public function render()
     {
-        return view('layouts.products.products');
+        $search = '%'.$this->search.'%';
+
+        $products = Product::query()
+        ->where([['Product_Name', 'LIKE', '%' . $this->search . '%'],])
+        ->orderBy('Product_Id', 'DESC')->paginate(15);
+
+        return view('components.products.products', [
+            'products' => $products,
+        ]);
     }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+

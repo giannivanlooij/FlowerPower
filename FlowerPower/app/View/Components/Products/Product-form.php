@@ -4,7 +4,7 @@ namespace App\View\Components\Products;
 
 use Illuminate\View\Component;
 
-class View-product extends Component
+class Productform extends Component
 {
     /**
      * Create a new component instance.
@@ -23,6 +23,6 @@ class View-product extends Component
      */
     public function render()
     {
-        return view('components.products.view-product');
+        return view('components.products.form-product');
     }
 }

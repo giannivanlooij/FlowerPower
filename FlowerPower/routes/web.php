@@ -1,6 +1,7 @@
 <?php
 use App\Http\Controllers\CartController;
 use App\Http\Controllers\ProductController;
+use App\models\Product;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -16,9 +17,10 @@ use Illuminate\Support\Facades\Route;
 
 
 
-Route::get('/producten', function () {
-    return view('components/products/products');
-});
+
+Route::get('/producten', [Products::class, 'mount']);
+
+
 
 Route::get('/', function () {
     return view('components/home');
