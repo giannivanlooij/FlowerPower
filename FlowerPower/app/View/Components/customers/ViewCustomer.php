@@ -7,9 +7,9 @@ use App\Models\Klanten;
 
 class Viewcustomer extends Component
 {
-    public Klanten $customer;
+    public ViewCustomer $customer;
 
-    public function mount(Klanten $customer)
+    public function mount(Customers $customer)
     {
         $this->customer = $customer;
     }
@@ -24,7 +24,3 @@ class Viewcustomer extends Component
 
 
 
-class CustomerView extends Component
-{
-    
-}
