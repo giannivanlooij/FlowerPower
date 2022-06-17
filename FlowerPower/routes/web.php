@@ -14,15 +14,13 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+
 
 Route::get('/producten', function () {
     return view('components/products/products');
 });
 
-Route::get('/home', function () {
+Route::get('/', function () {
     return view('components/home');
 });
 
@@ -31,10 +29,6 @@ Route::get('/login', function () {
 });
 
 
-
-Route::get('/login', function () {
-    return view('components/login');
-});
 
 // routes for cart
 Route::get('/productlijst', [ProductController::class, 'productList'])->name('products.list');
