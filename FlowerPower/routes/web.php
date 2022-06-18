@@ -1,6 +1,7 @@
 <?php
 use App\Http\Controllers\CartController;
 use App\Http\Controllers\ProductController;
+use App\models\Product;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -14,26 +15,16 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+//invalid routes but make the routes work. this needs to be fixed after the feature function works
+
+Route::get('/producten', [Products::class, 'mount']);
+
 Route::get('/', function () {
-    return view('welcome');
-});
-
-Route::get('/producten', function () {
-    return view('components/products/products');
-});
-
-Route::get('/home', function () {
     return view('components/home');
 });
 
-Route::get('/login', function () {
-    return view('components/login');
-});
-
-
-
-Route::get('/login', function () {
-    return view('components/login');
+Route::get('/welkom', function () {
+    return view('welcome');
 });
 
 // routes for cart
@@ -43,3 +34,7 @@ Route::post('/cart', [CartController::class, 'addToCart'])->name('cart.store');
 Route::post('/update-cart', [CartController::class, 'updateCart'])->name('cart.update');
 Route::post('/remove', [CartController::class, 'removeCart'])->name('cart.remove');
 Route::post('/clear', [CartController::class, 'clearAllCart'])->name('cart.clear');
+Auth::routes();
+
+Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+
