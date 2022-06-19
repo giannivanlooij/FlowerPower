@@ -13,14 +13,19 @@ return new class extends Migration
      */
     public function up()
     {
-        Schema::create('users', function (Blueprint $table) {
-            $table->id();
-            $table->string('name');
-            $table->string('email')->unique();
-            $table->timestamp('email_verified_at')->nullable();
-            $table->string('password');
-            $table->rememberToken();
-            $table->timestamps();
+        Schema::create('Customers', function (Blueprint $table) {
+            $table->integer('Customer_ID')->primary();
+            $table->string('Customer_Name', 1055)->nullable();
+            $table->string('Customer_MiddleName', 1055)->nullable();
+            $table->string('Customer_LastName', 58)->nullable();
+            $table->string('Customer_Addres', 55)->nullable();
+            $table->integer('Customer_HouseNumber')->nullable();
+            $table->char('Customer_PostalCode', 6)->nullable();
+            $table->string('Customer_TownShip', 45)->nullable()->comment("almere lelystad etc");
+            $table->string('Customer_Email', 345)->nullable();
+            $table->string('Customer_Password', 500);
+            $table->string('Customer_PhoneNumber', 30)->nullable();
+            $table->date('Customer_DateOfBirth')->nullable();
         });
     }
 
@@ -31,6 +36,6 @@ return new class extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('users');
+        Schema::dropIfExists('Customers');
     }
 };
