@@ -1,5 +1,11 @@
 @extends('layouts.app')
 
+@if(Session::has('error'))
+<div class="alert alert-danger">
+  {{ Session::get('error')}}
+</div>
+@endif
+
 @section('content')
 <div class="container">
     <div class="row justify-content-center">
@@ -12,10 +18,10 @@
                         @csrf
 
                         <div class="row mb-3">
-                            <label for="customerEmail" class="col-md-4 col-form-label text-md-end">{{ __('Email Address') }}</label>
+                            <label for="Customer_Email" class="col-md-4 col-form-label text-md-end">{{ __('Email Address') }}</label>
 
                             <div class="col-md-6">
-                                <input id="customerEmail" type="email" class="form-control @error('customerEmail') is-invalid @enderror" name="Customer_Email" value="{{ old('customerEmail') }}" required autocomplete="customerEmail" autofocus>
+                                <input id="Customer_Email" type="email" class="form-control @error('Customer_Email') is-invalid @enderror" name="Customer_Email" value="{{ old('Customer_Email') }}" required autocomplete="Customer_Email" autofocus>
 
                                 @error('Customer_Email')
                                     <span class="invalid-feedback" role="alert">
@@ -26,12 +32,12 @@
                         </div>
 
                         <div class="row mb-3">
-                            <label for="password" class="col-md-4 col-form-label text-md-end">{{ __('Password') }}</label>
+                            <label for="Customer_Password" class="col-md-4 col-form-label text-md-end">{{ __('Password') }}</label>
 
                             <div class="col-md-6">
-                                <input id="password" type="password" class="form-control @error('password') is-invalid @enderror" name="password" required autocomplete="current-password">
+                                <input id="Customer_Password" type="password" class="form-control @error('Customer_Password') is-invalid @enderror" name="Customer_Password" required autocomplete="current-password">
 
-                                @error('password')
+                                @error('Customer_Password')
                                     <span class="invalid-feedback" role="alert">
                                         <strong>{{ $message }}</strong>
                                     </span>

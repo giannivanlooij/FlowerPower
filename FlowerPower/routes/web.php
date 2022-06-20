@@ -15,7 +15,14 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-//invalid routes but make the routes work. this needs to be fixed after the feature function works
+Route::get('/', function(){
+    return view('auth.login');
+ });
+
+ Route::post('login', 'Auth\LoginController@loginNameOrEmail');
+//Route::get('/test')
+ 
+ Auth::routes();
 
 Route::get('/producten', [Products::class, 'mount']);
 
