@@ -1,8 +1,8 @@
 <?php
 
-namespace App\View\Components\Employees;
+namespace App\Http\Components\Employees;
 
-use Illuminate\View\Component;
+use Illuminate\Http\Component;
 
 class Employees extends Component
 {

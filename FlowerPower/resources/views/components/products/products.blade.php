@@ -21,7 +21,7 @@
             <tbody>
             @foreach($products as $product)
             <div>
-                <tr class="clickable" onclick="window.location='/apps/artikel/bekijken/{{ $product->Product_ID }}'">
+                <tr class="clickable" onclick="window.location='/apps/products/bekijken/{{ $product->Product_ID }}'">
                     <td>{{ $product->Product_ID }}</td>
                     <td>{{ $product->Product_Name }}</td>
                     <td>{{ $product->Product_Description }}</td>

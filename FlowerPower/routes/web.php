@@ -3,7 +3,7 @@ use App\Http\Controllers\CartController;
 use App\Http\Controllers\ProductController;
 use App\models\Product;
 use Illuminate\Support\Facades\Route;
-
+use App\Http\Components\Products\Products;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -30,7 +30,11 @@ Route::get('/login', function () {
     return view('components/login');
 });
 
+Route::group(['prefix' => 'artikel', 'as' => 'article.'], function () {
+    
+    Route::get('/allproducts', [Products::class, 'products'])->name('products');
 
+});
 
 // routes for cart
 Route::get('/productlijst', [ProductController::class, 'productList'])->name('products.list');

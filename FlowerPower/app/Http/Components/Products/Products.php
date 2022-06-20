@@ -1,14 +1,16 @@
 <?php
 
-namespace App\View\Components\Products;
+namespace App\Http\Components\Products;
 
-use Illuminate\View\Component;
+
+use Illuminate\Http\Component;
+use Livewire\withpagination;
 use App\Models\Product;
-
 use Illuminate\Database\Eloquent\Builder;
 
 class Products extends Component
 {
+    use withpagination;
 
     protected $queryString = ['search'];
 
